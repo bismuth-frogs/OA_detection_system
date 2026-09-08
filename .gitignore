@@ -1,0 +1,32 @@
+# Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+oa_env/
+ENV/
+*.swp
+.DS_Store
+
+# Virtual Environments
+.venv/
+
+# Large Datasets & Binary Files
+data/raw/*.XPT
+*.xpt
+
+# Trained Model Artifacts & Checkpoints
+checkpoints/*.joblib
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+*.joblib
+*.pt
+*.pth
+
+# Environment & Local Secrets
+.env
+.env.local
